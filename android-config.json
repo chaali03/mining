@@ -1,0 +1,31 @@
+{
+    "autosave": true,
+    "cpu": {
+        "enabled": true,
+        "huge-pages": false,
+        "priority": null,
+        "asm": true,
+        "max-threads-hint": 75
+    },
+    "opencl": {
+        "enabled": false
+    },
+    "cuda": {
+        "enabled": false
+    },
+    "pools": [
+        {
+            "algo": "rx/0",
+            "coin": "monero",
+            "url": "xmr.2miners.com:2222",
+            "user": "3B7VePx71mP8SnvmnGNSapkhratFY1iGct",
+            "pass": "x",
+            "rig-id": "android",
+            "keepalive": true,
+            "tls": false
+        }
+    ],
+    "print-time": 60,
+    "retries": 5,
+    "retry-pause": 5
+}
