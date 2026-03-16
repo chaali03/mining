@@ -5,7 +5,7 @@
         "huge-pages": false,
         "priority": null,
         "asm": true,
-        "max-threads-hint": 75
+        "max-threads-hint": 25
     },
     "opencl": {
         "enabled": false
